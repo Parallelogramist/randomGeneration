@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FD12828E-A103-4EE1-AEC2-0DD730E514FF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>randomGeneration</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7E8B81A6-3134-4D76-9AA5-F8D55644A964</key>
+		<string>https://github.com/Parallelogramist/randomGeneration.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>randomGeneration.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7E8B81A6-3134-4D76-9AA5-F8D55644A964</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Parallelogramist/randomGeneration.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7E8B81A6-3134-4D76-9AA5-F8D55644A964</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7E8B81A6-3134-4D76-9AA5-F8D55644A964</string>
+			<key>IDESourceControlWCCName</key>
+			<string>randomGeneration</string>
+		</dict>
+	</array>
+</dict>
+</plist>

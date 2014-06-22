@@ -27,25 +27,25 @@
 }
 
 - (IBAction)randomNumber:(id)sender {
-    randNumLabel.text = [NSString stringWithFormat:@"Random # 1-10: %d", arc4random()%10+1];
+    randNumLabel.text = [NSString stringWithFormat:@"Random # 1-99: %d", arc4random()%99+1];
 }
 
 - (IBAction)randomArrayElement:(id)sender {
     
     NSArray *elementArray = [NSArray arrayWithObjects:
-                             @"One",
-                             @"Two",
-                             @"Three",
-                             @"Four",
-                             @"Five",
-                             @"Six",
-                             @"Seven",
-                             @"Eight",
-                             @"Nine",
-                             @"Ten",
+                             @"Un",
+                             @"Do",
+                             @"Tre",
+                             @"Quatro",
+                             @"Cinco de Mayo",
+                             @"Seis",
+                             @"Siete",
+                             @"Ocho",
+                             @"Nueve",
+                             @"Cien!!!",
                              nil];
     
-    randArrayElementLabel.text =  [NSString stringWithFormat:@"Random # One-Ten: %@",[elementArray objectAtIndex: arc4random()%[elementArray count]]];
+    randArrayElementLabel.text =  [NSString stringWithFormat:@"Números Aleatorios: %@",[elementArray objectAtIndex: arc4random()%[elementArray count]]];
 }
 
 - (IBAction)randomAction:(id)sender {
@@ -62,6 +62,7 @@
                                       [[NSArray arrayWithObjects:@"I did it again",
                                         @"I dropped the marbles",
                                         @"I ate it all",
+                                        @"OH NO, you did N't! snap! snap! snap!",
                                         @"That wasn't supposed to happen...",
                                         @"SO RANDOM", nil] objectAtIndex:arc4random()%5]];
             break;

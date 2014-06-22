@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UILabel *randNumLabel;
+    IBOutlet UILabel *randArrayElementLabel;
+    IBOutlet UILabel *randomActionLabel;
+}
+- (IBAction)randomNumber:(id)sender;
+- (IBAction)randomArrayElement:(id)sender;
+- (IBAction)randomAction:(id)sender;
 
 @end

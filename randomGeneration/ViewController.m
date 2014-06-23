@@ -47,7 +47,7 @@
     
     randArrayElementLabel.text =  [NSString stringWithFormat:@"Random # One-Ten: %@",[elementArray objectAtIndex: arc4random()%[elementArray count]]];
 }
-
+//method uses a switch statement and arc4rand to call a random function
 - (IBAction)randomAction:(id)sender {
     
     switch (arc4random()%3+1) {
